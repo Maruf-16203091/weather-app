@@ -37,7 +37,7 @@ const WeatherCard: React.FC<WeatherCardProps> = ({ location }) => {
   return (
     <div className="weather-card-container">
       {weatherData && (
-        <div className="weather-card" style={{ backgroundImage: `url('./assets')` }}>
+        <div className="weather-card">
           <div className="weather-info">
             <div className="location">{weatherData.location.name}</div>
             <div className="temp">{weatherData.current.temp_c}°C</div>

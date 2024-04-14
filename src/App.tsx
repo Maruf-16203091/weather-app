@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import WeatherCard from './WeatherComponent';
+import ThreeDCardDemo from './WeatherComponent';
 import "./WeatherCard.css"
 import "./App.css"
 
@@ -34,7 +34,7 @@ const App: React.FC = () => {
         </div>
       </header>
       <main className="p-4">
-        <WeatherCard location={location} />
+        <ThreeDCardDemo location={location} />
       </main>
     </div>
   );
